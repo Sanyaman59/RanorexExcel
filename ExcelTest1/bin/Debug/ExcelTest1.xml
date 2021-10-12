@@ -1,0 +1,797 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelTest1</name>
+    </assembly>
+    <members>
+        <member name="T:ExcelTest1.FontsTests">
+             <summary>
+            The FontsTests recording.
+             </summary>
+        </member>
+        <member name="F:ExcelTest1.FontsTests.repo">
+            <summary>
+            Holds an instance of the ExcelTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.FontsTests.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.FontsTests.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.FontsTests.FontValue">
+            <summary>
+            Gets or sets the value of variable FontValue.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.FontsTests.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ExcelTest1.FontsTests.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.FontsTests.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ExcelTest1.FontsTests.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.NewSheetTest">
+             <summary>
+            The NewSheetTest recording.
+             </summary>
+        </member>
+        <member name="F:ExcelTest1.NewSheetTest.repo">
+            <summary>
+            Holds an instance of the ExcelTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.NewSheetTest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.NewSheetTest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.NewSheetTest.HanNavel">
+            <summary>
+            Gets or sets the value of variable HanNavel.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.NewSheetTest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ExcelTest1.NewSheetTest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.NewSheetTest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ExcelTest1.NewSheetTest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:ExcelTest1.CloseAUT.repo">
+            <summary>
+            Holds an instance of the ExcelTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ExcelTest1.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ExcelTest1.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1Repository">
+            <summary>
+            The class representing the ExcelTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ExcelTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.FontName">
+            <summary>
+            Gets or sets the value of variable FontName.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.FontValue">
+            <summary>
+            Gets or sets the value of variable FontValue.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.NewSheet">
+            <summary>
+            The NewSheet item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.NewSheetInfo">
+            <summary>
+            The NewSheet item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.Book16Excel">
+            <summary>
+            The Book16Excel folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1Repository.Programs">
+            <summary>
+            The Programs folder.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder">
+            <summary>
+            The Book16ExcelAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Book16Excel  folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.AIOStartDocument">
+            <summary>
+            The AIOStartDocument item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.AIOStartDocumentInfo">
+            <summary>
+            The AIOStartDocument item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellD5">
+            <summary>
+            The CellD5 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellD5Info">
+            <summary>
+            The CellD5 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellH8">
+            <summary>
+            The CellH8 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellH8Info">
+            <summary>
+            The CellH8 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellA1">
+            <summary>
+            The CellA1 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellA1Info">
+            <summary>
+            The CellA1 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellB3">
+            <summary>
+            The CellB3 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellB3Info">
+            <summary>
+            The CellB3 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.TitleBarBook26Excel">
+            <summary>
+            The TitleBarBook26Excel item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.TitleBarBook26ExcelInfo">
+            <summary>
+            The TitleBarBook26Excel item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellE7">
+            <summary>
+            The CellE7 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellE7Info">
+            <summary>
+            The CellE7 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellI12">
+            <summary>
+            The CellI12 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellI12Info">
+            <summary>
+            The CellI12 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.MergeCenter">
+            <summary>
+            The MergeCenter item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.MergeCenterInfo">
+            <summary>
+            The MergeCenter item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.Position">
+            <summary>
+            The Position item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.PositionInfo">
+            <summary>
+            The Position item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellN1">
+            <summary>
+            The CellN1 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellN1Info">
+            <summary>
+            The CellN1 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.Editing">
+            <summary>
+            The Editing item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.EditingInfo">
+            <summary>
+            The Editing item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellN3">
+            <summary>
+            The CellN3 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CellN3Info">
+            <summary>
+            The CellN3 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.SheetTab">
+            <summary>
+            The SheetTab item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.SheetTabInfo">
+            <summary>
+            The SheetTab item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.BlankWorkbook">
+            <summary>
+            The BlankWorkbook item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.BlankWorkbookInfo">
+            <summary>
+            The BlankWorkbook item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.Sheet1">
+            <summary>
+            The Sheet1 folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.CloseWindow">
+            <summary>
+            The CloseWindow folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.FontTests">
+            <summary>
+            The FontTests folder.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder">
+            <summary>
+            The Sheet1Folder folder.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Sheet1  folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellI19">
+            <summary>
+            The CellI19 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellI19Info">
+            <summary>
+            The CellI19 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellB2">
+            <summary>
+            The CellB2 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellB2Info">
+            <summary>
+            The CellB2 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellK21">
+            <summary>
+            The CellK21 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellK21Info">
+            <summary>
+            The CellK21 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellM29">
+            <summary>
+            The CellM29 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellM29Info">
+            <summary>
+            The CellM29 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellB4">
+            <summary>
+            The CellB4 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellB4Info">
+            <summary>
+            The CellB4 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellI20">
+            <summary>
+            The CellI20 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellI20Info">
+            <summary>
+            The CellI20 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellL24">
+            <summary>
+            The CellL24 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellL24Info">
+            <summary>
+            The CellL24 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellJ20">
+            <summary>
+            The CellJ20 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellJ20Info">
+            <summary>
+            The CellJ20 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellG7">
+            <summary>
+            The CellG7 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellG7Info">
+            <summary>
+            The CellG7 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellG8">
+            <summary>
+            The CellG8 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellG8Info">
+            <summary>
+            The CellG8 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellD1">
+            <summary>
+            The CellD1 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellD1Info">
+            <summary>
+            The CellD1 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellD2">
+            <summary>
+            The CellD2 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellD2Info">
+            <summary>
+            The CellD2 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellE1">
+            <summary>
+            The CellE1 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellE1Info">
+            <summary>
+            The CellE1 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellE2">
+            <summary>
+            The CellE2 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellE2Info">
+            <summary>
+            The CellE2 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellJ13">
+            <summary>
+            The CellJ13 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.Sheet1Folder.CellJ13Info">
+            <summary>
+            The CellJ13 item info.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder">
+            <summary>
+            The CloseWindowFolder folder.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CloseWindow  folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.DontSave">
+            <summary>
+            The DontSave item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.DontSaveInfo">
+            <summary>
+            The DontSave item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.Cancel">
+            <summary>
+            The Cancel item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.CloseWindowFolder.CancelInfo">
+            <summary>
+            The Cancel item info.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder">
+            <summary>
+            The FontTestsFolder folder.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FontTests  folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder">
+            <summary>
+            The ProgramsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Programs  folder.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.ItemsView">
+            <summary>
+            The ItemsView item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.ItemsViewInfo">
+            <summary>
+            The ItemsView item info.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.SystemItemNameDisplay">
+            <summary>
+            The SystemItemNameDisplay item.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.ExcelTest1RepositoryFolders.ProgramsAppFolder.SystemItemNameDisplayInfo">
+            <summary>
+            The SystemItemNameDisplay item info.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.TextInsertion">
+             <summary>
+            The TextInsertion recording.
+             </summary>
+        </member>
+        <member name="F:ExcelTest1.TextInsertion.repo">
+            <summary>
+            Holds an instance of the ExcelTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.TextInsertion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.TextInsertion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.TextInsertion.CellValue">
+            <summary>
+            Gets or sets the value of variable CellValue.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.TextInsertion.HanNavel">
+            <summary>
+            Gets or sets the value of variable HanNavel.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.TextInsertion.ElseVariable">
+            <summary>
+            Gets or sets the value of variable ElseVariable.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.TextInsertion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ExcelTest1.TextInsertion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.TextInsertion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ExcelTest1.TextInsertion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ExcelTest1.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:ExcelTest1.StartAUT.repo">
+            <summary>
+            Holds an instance of the ExcelTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ExcelTest1.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ExcelTest1.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ExcelTest1.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ExcelTest1.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

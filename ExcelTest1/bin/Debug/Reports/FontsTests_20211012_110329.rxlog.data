@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.52s"
+		durationms="9522"
+		type="root"
+		rid="3077407d6b0c528"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2021 11:03:30 AM"
+		timestampiso="2021-10-12T08:03:30"
+		endtime="10/12/2021 11:03:40 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<errormessage>
+			No element found for path './listitem[@defaultlabel='/?/?/listitem[@name=''Arial'']']' at step 'listitem[@defaultlabel='/?/?/listitem[@name=''Arial'']']' after 1 attempts.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.963"
+			timeRelativeToTestModuleStartTime="00:03.963"
+			timeWallClock="11:03:34"
+			time="00:03.963"
+			level="Warn"
+			category="Data"
+			errimg="images_FontsTes_63c43d05\FontsTes_63c43d05_bebaf212_trace.jpg"
+			errthumb="images_FontsTes_63c43d05\FontsTes_63c43d05_bebaf212_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>FontValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.442"
+			timeRelativeToTestModuleStartTime="00:09.442"
+			timeWallClock="11:03:40"
+			time="00:09.442"
+			level="Error"
+			category="Module"
+			errimg="images_FontsTes_63c43d05\FontsTes_63c43d05_9541b97e_trace.jpg"
+			errthumb="images_FontsTes_63c43d05\FontsTes_63c43d05_9541b97e_trace_thumb.jpg">
+			<message>
+				No element found for path './listitem[@defaultlabel='/?/?/listitem[@name=''Arial'']']' at step 'listitem[@defaultlabel='/?/?/listitem[@name=''Arial'']']' after 1 attempts.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path)
+   at Ranorex.Adapter.FindSingle[T](RxPath path)
+   at Ranorex.Adapter.FindChildByDefaultLabel[T](String label)
+   at Ranorex.Adapter.FindChild[T](String defaultLabel)
+   at ExcelTest1.FontsTests.FontChange() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs:line 41
+   at ExcelTest1.FontsTests.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs"
+				codeline="41"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

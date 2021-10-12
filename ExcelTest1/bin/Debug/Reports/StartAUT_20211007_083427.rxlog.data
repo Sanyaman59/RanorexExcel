@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.3s"
+		durationms="7296"
+		type="root"
+		rid="9b2f16d115beaa"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/7/2021 8:34:28 AM"
+		timestampiso="2021-10-07T15:34:28"
+		endtime="10/7/2021 8:34:36 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.257"
+			timeRelativeToTestModuleStartTime="00:07.257"
+			timeWallClock="08:34:35"
+			time="00:07.257"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.273"
+			timeRelativeToTestModuleStartTime="00:07.273"
+			timeWallClock="08:34:35"
+			time="00:07.273"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

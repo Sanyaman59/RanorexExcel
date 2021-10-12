@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="36.42s"
+		durationms="36423"
+		type="root"
+		rid="174f4f96c69bab2a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2021 11:05:48 AM"
+		timestampiso="2021-10-12T08:05:48"
+		endtime="10/12/2021 11:06:24 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<errormessage>
+			Item 'ExcelTest1Repository.Book16Excel.CellB3' is no Cell.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.387"
+			timeRelativeToTestModuleStartTime="00:05.387"
+			timeWallClock="11:05:53"
+			time="00:05.387"
+			level="Warn"
+			category="Data"
+			errimg="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_fe8be55e_trace.jpg"
+			errthumb="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_fe8be55e_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>FontValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.321"
+			timeRelativeToTestModuleStartTime="00:36.321"
+			timeWallClock="11:06:24"
+			time="00:36.321"
+			level="Info"
+			category="User"
+			errimg="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_2d9464c6_trace.jpg"
+			errthumb="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_2d9464c6_trace_thumb.jpg">
+			<message>
+				Item 'CellB3' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs"
+				codeline="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.326"
+			timeRelativeToTestModuleStartTime="00:36.326"
+			timeWallClock="11:06:24"
+			time="00:36.326"
+			level="Error"
+			category="Module"
+			errimg="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_2d9464c6_trace.jpg"
+			errthumb="images_FontsTes_4cfb3d03\FontsTes_4cfb3d03_2d9464c6_trace_thumb.jpg">
+			<message>
+				Item 'ExcelTest1Repository.Book16Excel.CellB3' is no Cell.<br/>The element does not support the required capability 'cell'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.get_CellB3() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\ExcelTest1Repository.cs:line 324&#13;&#10;   at ExcelTest1.FontsTests.FontChange() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs:line 45&#13;&#10;   at ExcelTest1.FontsTests.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs:line 93&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs"
+				codeline="45"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

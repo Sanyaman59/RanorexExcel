@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="35.66s"
+		durationms="35663"
+		type="root"
+		rid="168ec5012c58238c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/11/2021 5:56:39 PM"
+		timestampiso="2021-10-11T14:56:39"
+		endtime="10/11/2021 5:57:15 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.477"
+			timeRelativeToTestModuleStartTime="00:03.477"
+			timeWallClock="17:56:43"
+			time="00:03.477"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.FontTests.Open' at 6;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				itempath=".//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.Open"
+				id="7b4081684c7a440fb31a39d8293d60c4"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.580"
+			timeRelativeToTestModuleStartTime="00:08.580"
+			timeWallClock="17:56:48"
+			time="00:08.580"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1080 units.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.890"
+			timeRelativeToTestModuleStartTime="00:08.890"
+			timeWallClock="17:56:48"
+			time="00:08.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.FontTests.Broadway' at 59;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Broadway']"
+				itempath="?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Broadway']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.Broadway"
+				id="4f49a6bf63a84853a209e3fa7fb94a84"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.347"
+			timeRelativeToTestModuleStartTime="00:31.347"
+			timeWallClock="17:57:11"
+			time="00:31.347"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Broadway' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="91"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.989"
+			timeRelativeToTestModuleStartTime="00:32.989"
+			timeWallClock="17:57:12"
+			time="00:32.989"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.Sheet1.CellJ13' at 27;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='13']/cell[@address='J13']"
+				itempath="row[@index='13']/cell[@address='J13']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellJ13"
+				id="9d592cc79d4544609512125d732760a8"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.232"
+			timeRelativeToTestModuleStartTime="00:34.232"
+			timeWallClock="17:57:13"
+			time="00:34.232"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '' with focus on 'Book16Excel.Sheet1.CellJ13'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='13']/cell[@address='J13']"
+				itempath="row[@index='13']/cell[@address='J13']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellJ13"
+				id="9d592cc79d4544609512125d732760a8"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.883"
+			timeRelativeToTestModuleStartTime="00:34.883"
+			timeWallClock="17:57:14"
+			time="00:34.883"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'H{LShiftKey up}an NAvel' with focus on 'Book16Excel.Sheet1.CellJ13'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='13']/cell[@address='J13']"
+				itempath="row[@index='13']/cell[@address='J13']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellJ13"
+				id="9d592cc79d4544609512125d732760a8"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

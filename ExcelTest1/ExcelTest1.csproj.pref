@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ExcelTest1.rxtst" />
+    <Element value="TextInsertion.rxrec" />
+    <Element value="TextInsertion.UserCode.cs" />
+    <Element value="FontsTests.rxrec" />
+    <Element value="FontsTests.UserCode.cs" />
+    <Element value="CloseAUT.rxrec" />
+    <Element value="ExcelTest1Repository.cs" />
+    <Element value="Program.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="ExcelTest1.TextInsertion.CellParameterChange()" />
+      <Element value="ExcelTest1.TextInsertion.ValidateCellContent()" />
+      <Element value="ExcelTest1.FontsTests.FontChange()" />
+      <Element value="ExcelTest1.TextInsertion.CellParametersSet()" />
+      <Element value="ExcelTest1.TextInsertion.CellParameterSet()" />
+      <Element value="ExcelTest1.TextInsertion.CellParameterChange()" />
+    </Array>
+  </Properties>
+</Properties>

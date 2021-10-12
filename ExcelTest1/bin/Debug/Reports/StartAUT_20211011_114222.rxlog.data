@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.95s"
+		durationms="6949"
+		type="root"
+		rid="3dbe336615105e4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/11/2021 11:42:24 AM"
+		timestampiso="2021-10-11T08:42:24"
+		endtime="10/11/2021 11:42:31 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.607"
+			timeRelativeToTestModuleStartTime="00:04.607"
+			timeWallClock="11:42:28"
+			time="00:04.607"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.617"
+			timeRelativeToTestModuleStartTime="00:04.617"
+			timeWallClock="11:42:28"
+			time="00:04.617"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.640"
+			timeRelativeToTestModuleStartTime="00:04.640"
+			timeWallClock="11:42:28"
+			time="00:04.640"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.BlankWorkbook' at 90;56.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//container[@automationid='BackstageView']//container[@name='New']/list[@classname='NetUIListView']/listitem[@name='Blank workbook']"
+				itempath=".//container[@automationid='BackstageView']//container[@name='New']/list[@classname='NetUIListView']/listitem[@name='Blank workbook']"
+				fullname="ExcelTest1Repository.Book16Excel.BlankWorkbook"
+				id="c37f64220e454d67bcf2d3627ea3cd76"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\StartAUT.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

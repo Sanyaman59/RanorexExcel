@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.58s"
+		durationms="14575"
+		type="root"
+		rid="67e94e3dfec1594"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2021 11:01:11 AM"
+		timestampiso="2021-10-12T08:01:11"
+		endtime="10/12/2021 11:01:25 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<errormessage>
+			No element found for path '//list[@name='Font']' at step 'descendant-or-self::list[@name='Font']' after 1 attempts.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.160"
+			timeRelativeToTestModuleStartTime="00:04.160"
+			timeWallClock="11:01:15"
+			time="00:04.160"
+			level="Warn"
+			category="Data"
+			errimg="images_FontsTes_7a8e3d07\FontsTes_7a8e3d07_f460402a_trace.jpg"
+			errthumb="images_FontsTes_7a8e3d07\FontsTes_7a8e3d07_f460402a_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>FontValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.482"
+			timeRelativeToTestModuleStartTime="00:14.482"
+			timeWallClock="11:01:25"
+			time="00:14.482"
+			level="Error"
+			category="Module"
+			errimg="images_FontsTes_7a8e3d07\FontsTes_7a8e3d07_16f3be4d_trace.jpg"
+			errthumb="images_FontsTes_7a8e3d07\FontsTes_7a8e3d07_16f3be4d_trace_thumb.jpg">
+			<message>
+				No element found for path '//list[@name='Font']' at step 'descendant-or-self::list[@name='Font']' after 1 attempts.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path)
+   at Ranorex.Adapter.FindSingle[T](RxPath path)
+   at ExcelTest1.FontsTests.FontChange() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs:line 39
+   at ExcelTest1.FontsTests.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.UserCode.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

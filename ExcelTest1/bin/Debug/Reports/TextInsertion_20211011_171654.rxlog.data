@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.93s"
+		durationms="4929"
+		type="root"
+		rid="653f7390f900b00"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/11/2021 5:16:56 PM"
+		timestampiso="2021-10-11T14:16:56"
+		endtime="10/11/2021 5:17:00 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="TextInsertion">
+		<detail>
+			TextInsertion
+		</detail>
+		<errormessage>
+			Comparing the cell content...
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.503"
+			timeRelativeToTestModuleStartTime="00:03.503"
+			timeWallClock="17:16:59"
+			time="00:03.503"
+			level="Warn"
+			category="Data"
+			errimg="images_TextInse_d79c471\TextInse_d79c471_b844ddee_trace.jpg"
+			errthumb="images_TextInse_d79c471\TextInse_d79c471_b844ddee_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CellValue, HanNavel, ElseVariable, CellContent
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.826"
+			timeRelativeToTestModuleStartTime="00:04.826"
+			timeWallClock="17:17:00"
+			time="00:04.826"
+			level="Failure"
+			category="Validation"
+			errimg="images_TextInse_d79c471\TextInse_d79c471_1e57a6b0_trace.jpg"
+			errthumb="images_TextInse_d79c471\TextInse_d79c471_1e57a6b0_trace_thumb.jpg">
+			<message>
+				Comparing the cell content...
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TextInsertion.UserCode.cs"
+				codeline="80"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.830"
+			timeRelativeToTestModuleStartTime="00:04.830"
+			timeWallClock="17:17:00"
+			time="00:04.830"
+			level="Error"
+			category="Module"
+			errimg="images_TextInse_d79c471\TextInse_d79c471_1e57a6b0_trace.jpg"
+			errthumb="images_TextInse_d79c471\TextInse_d79c471_1e57a6b0_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Comparing the cell content...
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   at Ranorex.Validate.AreEqual(Object actual, Object expected, String message)
+   at ExcelTest1.TextInsertion.ValidateCellContent() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TextInsertion.UserCode.cs:line 80
+   at ExcelTest1.TextInsertion.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TextInsertion.cs:line 134
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TextInsertion.UserCode.cs"
+				codeline="80"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

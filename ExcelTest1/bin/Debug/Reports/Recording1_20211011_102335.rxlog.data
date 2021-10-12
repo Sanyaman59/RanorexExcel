@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="30.48s"
+		durationms="30479"
+		type="root"
+		rid="28697fb074ae5fbc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/11/2021 10:23:36 AM"
+		timestampiso="2021-10-11T07:23:36"
+		endtime="10/11/2021 10:24:07 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Item 'ExcelTest1Repository.Book16Excel.TitleBarBook26Excel' is no TitleBar.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.790"
+			timeRelativeToTestModuleStartTime="00:03.790"
+			timeWallClock="10:23:40"
+			time="00:03.790"
+			level="Warn"
+			category="Data"
+			errimg="images_Recordin_2c969d27\Recordin_2c969d27_4f551750_trace.jpg"
+			errthumb="images_Recordin_2c969d27\Recordin_2c969d27_4f551750_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CellValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.807"
+			timeRelativeToTestModuleStartTime="00:03.807"
+			timeWallClock="10:23:40"
+			time="00:03.807"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Recordin_2c969d27\Recordin_2c969d27_4f551750_trace.jpg"
+			errthumb="images_Recordin_2c969d27\Recordin_2c969d27_4f551750_trace_thumb.jpg">
+			<message>
+				Key sequence '{Delete}15' with focus on 'Book16Excel.CellH8'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='8']/cell[@address='H8']"
+				itempath=".//table[@name='Sheet1']/row[@index='8']/cell[@address='H8']"
+				fullname="ExcelTest1Repository.Book16Excel.CellH8"
+				id="55301b22fdd94a778b313347cb64677b"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\Recording1.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.355"
+			timeRelativeToTestModuleStartTime="00:30.355"
+			timeWallClock="10:24:07"
+			time="00:30.355"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_2c969d27\Recordin_2c969d27_3c5eb535_trace.jpg"
+			errthumb="images_Recordin_2c969d27\Recordin_2c969d27_3c5eb535_trace_thumb.jpg">
+			<message>
+				Item 'TitleBarBook26Excel' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\Recording1.UserCode.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.366"
+			timeRelativeToTestModuleStartTime="00:30.366"
+			timeWallClock="10:24:07"
+			time="00:30.366"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_2c969d27\Recordin_2c969d27_3c5eb535_trace.jpg"
+			errthumb="images_Recordin_2c969d27\Recordin_2c969d27_3c5eb535_trace_thumb.jpg">
+			<message>
+				Item 'ExcelTest1Repository.Book16Excel.TitleBarBook26Excel' is no TitleBar.<br/>The element does not support the required capability 'titlebar'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at ExcelTest1.ExcelTest1RepositoryFolders.Book16ExcelAppFolder.get_TitleBarBook26Excel() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\ExcelTest1Repository.cs:line 352&#13;&#10;   at ExcelTest1.Recording1.CellParameterSet() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\Recording1.UserCode.cs:line 60&#13;&#10;   at ExcelTest1.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\Recording1.cs:line 102&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\Recording1.UserCode.cs"
+				codeline="60"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

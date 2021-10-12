@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.34s"
+		durationms="25336"
+		type="root"
+		rid="f52168ba3723a1b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2021 10:25:34 AM"
+		timestampiso="2021-10-12T07:25:34"
+		endtime="10/12/2021 10:25:59 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<errormessage>
+			Item 'ExcelTest1Repository.Book16Excel.FontTests.ArialBlack' is no ListItem.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.788"
+			timeRelativeToTestModuleStartTime="00:04.788"
+			timeWallClock="10:25:38"
+			time="00:04.788"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FontValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.805"
+			timeRelativeToTestModuleStartTime="00:04.805"
+			timeWallClock="10:25:38"
+			time="00:04.805"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.FontTests.Open' at 3;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				itempath=".//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.Open"
+				id="7b4081684c7a440fb31a39d8293d60c4"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.925"
+			timeRelativeToTestModuleStartTime="00:09.925"
+			timeWallClock="10:25:44"
+			time="00:09.925"
+			level="Info"
+			category="Mouse"
+			errimg="images_FontsTes_7d353d0\FontsTes_7d353d0_f66c5830_trace.jpg"
+			errthumb="images_FontsTes_7d353d0\FontsTes_7d353d0_f66c5830_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'Book16Excel.FontTests.ArialBlack' at 94;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Broadway']"
+				itempath="?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name=$FontValue]"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.ArialBlack"
+				id="565f405fa8854717b865fbdbacc1d2e7"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.254"
+			timeRelativeToTestModuleStartTime="00:25.254"
+			timeWallClock="10:25:59"
+			time="00:25.254"
+			level="Info"
+			category="User"
+			errimg="images_FontsTes_7d353d0\FontsTes_7d353d0_5a4b41a3_trace.jpg"
+			errthumb="images_FontsTes_7d353d0\FontsTes_7d353d0_5a4b41a3_trace_thumb.jpg">
+			<message>
+				Item 'ArialBlack' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="101"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.262"
+			timeRelativeToTestModuleStartTime="00:25.262"
+			timeWallClock="10:25:59"
+			time="00:25.262"
+			level="Error"
+			category="Module"
+			errimg="images_FontsTes_7d353d0\FontsTes_7d353d0_5a4b41a3_trace.jpg"
+			errthumb="images_FontsTes_7d353d0\FontsTes_7d353d0_5a4b41a3_trace_thumb.jpg">
+			<message>
+				Item 'ExcelTest1Repository.Book16Excel.FontTests.ArialBlack' is no ListItem.<br/>The element does not support the required capability 'listitem'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at ExcelTest1.ExcelTest1RepositoryFolders.FontTestsFolder.get_ArialBlack() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\ExcelTest1Repository.cs:line 1295&#13;&#10;   at ExcelTest1.FontsTests.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs:line 101&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="101"
+				loglvl="Error"
+				id="565f405fa8854717b865fbdbacc1d2e7"
+				path="/form[@processname='EXCEL']/?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Broadway']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.ArialBlack"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

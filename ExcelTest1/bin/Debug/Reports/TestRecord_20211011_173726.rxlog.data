@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.61s"
+		durationms="8606"
+		type="root"
+		rid="76082f7ca431fc8"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/11/2021 5:37:27 PM"
+		timestampiso="2021-10-11T14:37:27"
+		endtime="10/11/2021 5:37:36 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="TestRecord">
+		<detail>
+			TestRecord
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.763"
+			timeRelativeToTestModuleStartTime="00:04.763"
+			timeWallClock="17:37:32"
+			time="00:04.763"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.Sheet1.CellE1' at 24;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']"
+				itempath="row[@index='1']/cell[@address='E1']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellE1"
+				id="fecf690d836c4d579ad8b4e27a979662"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.428"
+			timeRelativeToTestModuleStartTime="00:06.428"
+			timeWallClock="17:37:34"
+			time="00:06.428"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1234' with focus on 'Book16Excel.Sheet1.CellE1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']"
+				itempath="row[@index='1']/cell[@address='E1']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellE1"
+				id="fecf690d836c4d579ad8b4e27a979662"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.194"
+			timeRelativeToTestModuleStartTime="00:07.194"
+			timeWallClock="17:37:34"
+			time="00:07.194"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Book16Excel.EXCEL6' at 61;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/element[@class='EXCEL6']"
+				itempath="?/?/element[@class='EXCEL6']"
+				fullname="ExcelTest1Repository.Book16Excel.EXCEL6"
+				id="0388a29e0c0248788cba82f4871ff464"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.608"
+			timeRelativeToTestModuleStartTime="00:07.608"
+			timeWallClock="17:37:35"
+			time="00:07.608"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_TestReco_9cb2f47b\TestReco_509f03cd_rxlog.jpg"
+			errthumb="images_TestReco_9cb2f47b\TestReco_509f03cd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.946"
+			timeRelativeToTestModuleStartTime="00:07.946"
+			timeWallClock="17:37:35"
+			time="00:07.946"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Book16Excel.EXCEL6' at 58;266.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/element[@class='EXCEL6']"
+				itempath="?/?/element[@class='EXCEL6']"
+				fullname="ExcelTest1Repository.Book16Excel.EXCEL6"
+				id="0388a29e0c0248788cba82f4871ff464"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.291"
+			timeRelativeToTestModuleStartTime="00:08.291"
+			timeWallClock="17:37:35"
+			time="00:08.291"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_TestReco_9cb2f47b\TestReco_c53a03cd_rxlog.jpg"
+			errthumb="images_TestReco_9cb2f47b\TestReco_c53a03cd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\TestRecord.cs"
+				codeline="96"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

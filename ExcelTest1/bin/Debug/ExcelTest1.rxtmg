@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroupdef
+			id="cba36317-b8e2-4fc3-8b18-b9142736b5d6"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<modulegroups
+			id="fd5ed352-163e-41bd-9965-ff4c27e58c08"
+			name="ExcelTest1">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="fd5ed352-163e-41bd-9965-ff4c27e58c08"
+			name="ExcelTest1">
+				<modulegroupdef
+				id="cba36317-b8e2-4fc3-8b18-b9142736b5d6"
+				name="ModuleGroup">
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.68s"
+		durationms="13679"
+		type="root"
+		rid="2131784bf2eb0ac9"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/8/2021 3:14:19 AM"
+		timestampiso="2021-10-08T10:14:19"
+		endtime="10/8/2021 3:14:33 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CellsMerge">
+		<detail>
+			CellsMerge
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.979"
+			timeRelativeToTestModuleStartTime="00:04.979"
+			timeWallClock="03:14:24"
+			time="00:04.979"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.Sheet1.CellI20' at 31;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='20']/cell[@address='I20']"
+				itempath="row[@index='20']/cell[@address='I20']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellI20"
+				id="bfddcf94a75544588df52493f41f113d"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\CellsMerge.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.551"
+			timeRelativeToTestModuleStartTime="00:06.551"
+			timeWallClock="03:14:26"
+			time="00:06.551"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '' with focus on 'Book16Excel.Sheet1.CellI20'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='20']/cell[@address='I20']"
+				itempath="row[@index='20']/cell[@address='I20']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellI20"
+				id="bfddcf94a75544588df52493f41f113d"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\CellsMerge.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.227"
+			timeRelativeToTestModuleStartTime="00:07.227"
+			timeWallClock="03:14:26"
+			time="00:07.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.Sheet1.CellL24' at 45;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='24']/cell[@address='L24']"
+				itempath="row[@index='24']/cell[@address='L24']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellL24"
+				id="c22607419c1c4ef2bcd26bd8c61a233f"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\CellsMerge.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.392"
+			timeRelativeToTestModuleStartTime="00:08.392"
+			timeWallClock="03:14:28"
+			time="00:08.392"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey up}' with focus on 'Book16Excel.Sheet1.CellI20'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='20']/cell[@address='I20']"
+				itempath="row[@index='20']/cell[@address='I20']"
+				fullname="ExcelTest1Repository.Book16Excel.Sheet1.CellI20"
+				id="bfddcf94a75544588df52493f41f113d"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\CellsMerge.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.100"
+			timeRelativeToTestModuleStartTime="00:09.100"
+			timeWallClock="03:14:28"
+			time="00:09.100"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.MergeCenter' at 37;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Alignment']/button[@name='Merge &amp; Center']/button[@name='Merge &amp; Center']"
+				itempath=".//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Alignment']/button[@name='Merge &amp; Center']/button[@name='Merge &amp; Center']"
+				fullname="ExcelTest1Repository.Book16Excel.MergeCenter"
+				id="85250b0f70634c4ca3ab8a5106c94da3"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\CellsMerge.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

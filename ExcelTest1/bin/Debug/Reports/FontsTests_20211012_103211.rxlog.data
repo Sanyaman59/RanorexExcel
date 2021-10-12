@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="32.8s"
+		durationms="32800"
+		type="root"
+		rid="faaa2e3f5697f3d"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.1.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2021 10:32:13 AM"
+		timestampiso="2021-10-12T07:32:13"
+		endtime="10/12/2021 10:32:46 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FontsTests">
+		<detail>
+			FontsTests
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.908"
+			timeRelativeToTestModuleStartTime="00:03.908"
+			timeWallClock="10:32:17"
+			time="00:03.908"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FontValue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.925"
+			timeRelativeToTestModuleStartTime="00:03.925"
+			timeWallClock="10:32:17"
+			time="00:03.925"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.FontTests.Open' at 6;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				itempath=".//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']/combobox[@name='Font']/button[@name='Open']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.Open"
+				id="7b4081684c7a440fb31a39d8293d60c4"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.567"
+			timeRelativeToTestModuleStartTime="00:08.567"
+			timeWallClock="10:32:22"
+			time="00:08.567"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book16Excel.FontTests.ArialBlack' at 99;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']/?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Arial Black']"
+				itempath="?/?/container[@name='Font']/list[@name='Font']/?/?/listitem[@name='Arial Black']"
+				fullname="ExcelTest1Repository.Book16Excel.FontTests.ArialBlack"
+				id="80bc948237b84f5b8471841e47312d2f"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.067"
+			timeRelativeToTestModuleStartTime="00:31.067"
+			timeWallClock="10:32:44"
+			time="00:31.067"
+			level="Info"
+			category="User">
+			<message>
+				Item 'ArialBlack' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\ExcelTest1\ExcelTest1\FontsTests.cs"
+				codeline="101"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

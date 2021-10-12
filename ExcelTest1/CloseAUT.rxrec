@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c4d47db8-a8dd-4caf-afc2-a799391ac914"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="ExcelTest1">
+	</codegen>
+	<variables>
+		<var
+		id="ea8733d2-20a8-4270-8bff-e6b8f95ef0f4"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CloseAUT"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="WindowClose"
+		namespace="ExcelTest1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1a64697b-3794-4848-be17-9c50a577ca1c">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="acbcaca7-6939-4aa8-b071-f7cec891980c"
+	name="ExcelTest1Repository"
+	relativepath="ExcelTest1Repository.rxrep">
+		<codegen
+		classname="ExcelTest1Repository"
+		namespace="ExcelTest1">
+		</codegen>
+		<rootfolder
+		id="aa1aff8c-bbcb-4f61-a45e-65df48772730"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

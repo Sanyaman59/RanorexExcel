@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="93f7ecb6-f165-4c69-83d7-126a56f41043"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TextInsertion"
+	namespace="ExcelTest1">
+	</codegen>
+	<variables>
+		<var
+		id="bb4cda8d-4cc2-42ee-93f7-71c265b02b10"
+		name="CellValue">
+			5553535
+		</var>
+		<var
+		id="9db1e775-999f-4a74-8f39-0a6560523a50"
+		name="HanNavel">
+		</var>
+		<var
+		id="d74770fe-a8da-459b-9904-a2f923baaa23"
+		name="ElseVariable">
+			AB/CD
+		</var>
+	</variables>
+	<recorditems>
+		<keysequenceitem
+		KeySequence="{Delete}$CellValue"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="68e2362f-7ced-4b35-a59b-81241ede5930">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="CellValue">
+				</binding>
+			</bindings>
+			<info
+			id="55301b22-fdd9-4a77-8b31-3347cb64677b"
+			sourcename="Recorder">
+				<element
+				capabilities="excelrange"
+				dontcache="False"
+				enabled="True"
+				flavor="office"
+				hasfocus="False"
+				index="7"
+				prefcap="cell"
+				rect="596,515,64,20"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="columnindex"
+					type="System.Int32">
+						8
+					</attribute>
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="rowindex"
+					type="System.Int32">
+						8
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="address"
+					type="System.String">
+						H8
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='8']/cell[@address='H8']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c45172df-2f86-427e-87c5-f70b57bd33f8">
+				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
+DYvXp6GgB9FJuHv+Ro3D3/I0ALRSbh7/AJGjcPf8jQAtFJuHv+Ro3D3/ACNAC0ifcX6Ubh7/AJGm
+ow2L16ehoAfRSbh7/kaKAFpE+4v0paRPuL9KAFooooAKKKKACiiigApE+4v0paRPuL9KAFooooAK
+KKKACiiigApE+4v0paRPuL9KAFooooAKKKKACiiigApE+4v0paRPuL9KAFooooATaf7x/SmoDsX5
+j09qfSJ9xfpQAbT/AHj+lG0/3j+lLRQAm0/3j+lG0/3j+lLRQAm0/wB4/pRtP94/pS0UAJtP94/p
+TUB2L8x6e1PpE+4v0oANp/vH9KNp/vH9KWigBNp/vH9KNp/vH9KWigBNp/vH9KNp/vH9KWigBNp/
+vH9KagOxfmPT2p9In3F+lABtP94/pRtP94/pS0UAJtP94/pRtP8AeP6UtFACbT/eP6UbT/eP6UtF
+ACbT/eP6U1Adi/MentT6RPuL9KADaf7x/SilooAKRPuL9KKKAFooooAKKKKACiiigApE+4v0oooA
+WiiigAooooAKKKKACkT7i/SiigBaKKKACiiigAooooAKRPuL9KKKAFooooA//9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<userrecorditem
+		classname="TextInsertion"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CellParameterChange"
+		namespace="ExcelTest1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="688cc912-3a37-4ad7-94f2-5407ce7e40c7">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="TextInsertion"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CellParametersSet"
+		namespace="ExcelTest1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6bc01267-66e4-4cf4-800a-bad40af37ef0">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="TextInsertion"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateCellContent"
+		namespace="ExcelTest1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="13f86887-d8b8-4d52-b163-ecc581bdf506">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="acbcaca7-6939-4aa8-b071-f7cec891980c"
+	name="ExcelTest1Repository"
+	relativepath="ExcelTest1Repository.rxrep">
+		<codegen
+		classname="ExcelTest1Repository"
+		namespace="ExcelTest1">
+		</codegen>
+		<rootfolder
+		id="aa1aff8c-bbcb-4f61-a45e-65df48772730"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TextInsertion.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

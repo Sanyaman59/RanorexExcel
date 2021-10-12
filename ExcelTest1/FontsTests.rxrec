@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="820129be-5a35-44a7-b317-3e95555f96e9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FontsTests"
+	namespace="ExcelTest1">
+	</codegen>
+	<variables>
+		<var
+		id="48570828-8438-4155-b603-c8f0b5428fd7"
+		name="FontValue">
+			Broadway
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="FontsTests"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="FontChange"
+		namespace="ExcelTest1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="9361ebc7-4917-4b42-bcc2-903b4e70e3e6">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="acbcaca7-6939-4aa8-b071-f7cec891980c"
+	name="ExcelTest1Repository"
+	relativepath="ExcelTest1Repository.rxrep">
+		<codegen
+		classname="ExcelTest1Repository"
+		namespace="ExcelTest1">
+		</codegen>
+		<rootfolder
+		id="aa1aff8c-bbcb-4f61-a45e-65df48772730"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FontsTests.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

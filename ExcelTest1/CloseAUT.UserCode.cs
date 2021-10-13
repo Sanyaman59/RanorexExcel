@@ -35,7 +35,7 @@ namespace ExcelTest1
 
         public void WindowClose()
         {
-        	var exit = repo.Book16Excel.Self.FindSingle<Ranorex.Button>("//button[@name='Close']");
+        	var exit = repo.Book16Excel.Self.FindSingle<Ranorex.Button>("/form[@processname='EXCEL']/element[@class='EXCEL2']//button[@name='Close']");
         	exit.DoubleClick();
             Thread.Sleep(2000);
             var dontSave = repo.Book16Excel.Self.FindSingle<Ranorex.Button>("//button[@name='Don''t Save']");
